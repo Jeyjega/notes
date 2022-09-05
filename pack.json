@@ -1,0 +1,184 @@
+{
+    "_id" : ObjectId("630c8c347451ccd3540c51fd"),
+    "ename" : "jegathees",
+    "age" : "23",
+    "address" : {
+        "city" : "pudukottai",
+        "pincod" : "622302"
+    },
+    "email" : "jegathees@gmail.com",
+    "pancard" : "DFG213",
+    "deptid" : "abc123",
+    "salary" : "30000",
+    "mobile" : "6312344321",
+    "eid" : NumberInt(1),
+    "DOB" : ISODate("1998-05-01T00:00:00.000+0000")
+}
+{
+    "_id" : ObjectId("630c8ca77451ccd3540c51fe"),
+    "ename" : "vigneshs",
+    "age" : "21",
+    "address" : {
+        "city" : "erode",
+        "pincod" : "622312"
+    },
+    "email" : "vignesh@gmail.com",
+    "pancard" : "DFG213",
+    "deptid" : "abc234",
+    "salary" : "35000",
+    "mobile" : "9876543211",
+    "eid" : NumberInt(2),
+    "DOB" : ISODate("1999-03-10T00:00:00.000+0000")
+}
+{
+    "_id" : ObjectId("630c8cf67451ccd3540c51ff"),
+    "ename" : "rajesh",
+    "age" : "25",
+    "address" : {
+        "city" : "selam",
+        "pincod" : "625412"
+    },
+    "email" : "rajesh@gmail.com",
+    "pancard" : "DSDG213",
+    "deptid" : "afc234",
+    "salary" : "34000",
+    "mobile" : "9876543322",
+    "eid" : NumberInt(3),
+    "DOB" : ISODate("2000-01-30T00:00:00.000+0000")
+}
+{
+    "_id" : ObjectId("630c8d367451ccd3540c5200"),
+    "ename" : "ganesh",
+    "age" : "27",
+    "address" : {
+        "city" : "trichy",
+        "pincod" : "625332"
+    },
+    "email" : "ganesh@gmail.com",
+    "pancard" : "DSDG543",
+    "deptid" : "ahg234",
+    "salary" : "36000",
+    "mobile" : "9446543322",
+    "eid" : NumberInt(4),
+    "DOB" : ISODate("2001-08-11T00:00:00.000+0000")
+}
+{
+    "_id" : ObjectId("630c8d827451ccd3540c5201"),
+    "ename" : "ajith",
+    "age" : "22",
+    "address" : {
+        "city" : "chennai",
+        "pincod" : "622332"
+    },
+    "email" : "ajith@gmail.com",
+    "pancard" : "ASDG543",
+    "deptid" : "ahg314",
+    "salary" : "40000",
+    "mobile" : "9447643322",
+    "eid" : NumberInt(5),
+    "DOB" : ISODate("1997-01-12T00:00:00.000+0000")
+}
+{
+    "_id" : ObjectId("630c8dd67451ccd3540c5202"),
+    "ename" : "radha",
+    "age" : "29",
+    "address" : {
+        "city" : "karur",
+        "pincod" : "628832"
+    },
+    "email" : "radha@gmail.com",
+    "pancard" : "ASD543",
+    "deptid" : "anb314",
+    "salary" : "41000",
+    "mobile" : "9447003322",
+    "eid" : NumberInt(6),
+    "DOB" : ISODate("1998-11-24T00:00:00.000+0000")
+}
+{
+    "_id" : ObjectId("630c8e097451ccd3540c5203"),
+    "ename" : "santhosh",
+    "age" : "30",
+    "address" : {
+        "city" : "namakal",
+        "pincod" : "628002"
+    },
+    "email" : "santhosh@gmail.com",
+    "pancard" : "ASD599",
+    "deptid" : "anb311",
+    "salary" : "45000",
+    "mobile" : "9447003002",
+    "eid" : NumberInt(7),
+    "DOB" : ISODate("1997-02-27T00:00:00.000+0000")
+}
+{
+    "_id" : ObjectId("630c8e607451ccd3540c5204"),
+    "ename" : "siva",
+    "age" : "20",
+    "address" : {
+        "city" : "thanjure",
+        "pincod" : "628222"
+    },
+    "email" : "siva@gmail.com",
+    "pancard" : "ZSD599",
+    "deptid" : "afd311",
+    "salary" : "25000",
+    "mobile" : "9117003002",
+    "eid" : NumberInt(8),
+    "DOB" : ISODate("2000-06-06T00:00:00.000+0000")
+}
+{
+    "_id" : ObjectId("630c8ea67451ccd3540c5205"),
+    "ename" : "saravana",
+    "age" : "29",
+    "address" : {
+        "city" : "palani",
+        "pincod" : "629922"
+    },
+    "email" : "saravana@gmail.com",
+    "pancard" : "ZSD009",
+    "deptid" : "afd281",
+    "salary" : "41000",
+    "mobile" : "9155003002",
+    "eid" : NumberInt(9),
+    "DOB" : ISODate("2002-12-12T00:00:00.000+0000")
+}
+{
+    "_id" : ObjectId("630c8efd7451ccd3540c5206"),
+    "ename" : "vijay",
+    "age" : "29",
+    "address" : {
+        "city" : "coimbatore",
+        "pincod" : "629900"
+    },
+    "email" : "vijay@gmail.com",
+    "pancard" : "ZSS009",
+    "deptid" : "ad1281",
+    "salary" : "42000",
+    "mobile" : "9155011002",
+    "eid" : NumberInt(10),
+    "DOB" : ISODate("2005-10-10T00:00:00.000+0000")
+}
+{
+    "_id" : ObjectId("631081a286c977bc9e3af52d"),
+    "name" : "sujan",
+    "address" : "delhi",
+    "dob" : "1998-05-01",
+    "age" : NumberInt(23),
+    "salary" : NumberInt(25000)
+}
+{
+    "_id" : ObjectId("631081ca84d94d9c78a58b67"),
+    "ename" : "sujan",
+    "address" : "delhi",
+    "dob" : "1998-05-01",
+    "age" : NumberInt(23),
+    "salary" : NumberInt(25000)
+}
+{
+    "_id" : ObjectId("6310959f2f827b2a94642546"),
+    "ename" : "sujan",
+    "address" : "delhi",
+    "DOB" : "1998-05-01",
+    "age" : NumberInt(23),
+    "salary" : NumberInt(25000)
+}

@@ -1,0 +1,279 @@
+/*const btn = document.querySelector("button")
+const guessNumbers = document.querySelector("input")
+const balanceTurn = document.querySelector("#remainTurn")
+const gMessage = document.querySelector("#message")
+const previousNumber = document.querySelector("#previousNumber")
+
+
+let remainingTurn = 10;
+
+let systemNumber = 15;
+
+let previouslyGuessNumber= 0;
+
+let message = "";
+
+
+
+
+
+btn.addEventListener("click", (e) => {
+  e.preventDefault()
+  btn.textContent = "Check Number"
+  
+  function guessNumber() {
+    if (remainingTurn <= 10 && remainingTurn > 1) {
+      if (systemNumber > guessNumbers.value) {
+        message = "Too Low"
+        gMessage.textContent = `Message: ${message}`
+        remainingTurn = remainingTurn - 1
+        balanceTurn.textContent = `Remaining Turn : ${remainingTurn}`
+        previousNumber.textContent = `Previous number: ${guessNumbers.value}`
+      } else if (systemNumber < guessNumbers.value) {
+        message = "Too High"
+        gMessage.textContent = `Message: ${message}`
+        remainingTurn = remainingTurn - 1
+        balanceTurn.textContent = `Remaining Turn : ${remainingTurn}`
+        previousNumber.textContent = `Previous number: ${guessNumbers.value}`
+      } else {
+        message = "You Won!!!"
+        gMessage.textContent = `Message: ${message}`
+        reset()
+      }
+    } else {
+      message = "Game Over"
+      btn.textContent = "Try Again"
+      reset()
+    }
+
+    guessNumbers.value= ""
+    return message
+  }
+
+  guessNumber()
+
+
+})
+
+
+
+
+function randomNumbers() {
+  return Math.trunc(Math.random() * 100) + 1
+}
+
+function reset(){
+    btn.textContent = "Restart Game"
+    systemNumber = randomNumbers()
+    remainingTurn = 10
+    balanceTurn.textContent = `Remaining Turn : ${remainingTurn}` 
+    previousNumber.textContent = `Previous number: 0`  
+}*/
+
+
+/*function checkDogs(juliaDog,kateDog){
+  let originalJuliaDogs=[3,5,2,12,7]
+}*/
+
+
+
+
+
+/*let arr = [1,2,3,4,5]
+
+let updatedArr = arr
+
+updatedArr.push(6)
+
+
+console.log(arr);
+console.log(updatedArr);*/
+
+/*function calcHumanAges(ages){
+  let dogTohumanage=ages.map((ages)=>{
+    if(age<=2){
+      return age*2;
+    }else{
+      return age*
+    }
+  })
+
+}*/
+
+
+//Data 1: Dolphins score 96, 108 and 89. Koalas score 88, 91 and 110
+
+/*const user = {
+    firstName: 'Kishore',
+    lastName: 'Babu',
+   age: 26,
+ };
+  
+  console.log(user['age']);
+  
+ user.country = 'India';
+  
+ console.log(user);
+  
+ let userDetails = Object.values(user);
+  
+ console.log(userDetails);*/
+
+ /*const num1=document.getElementById('num1')
+ const num2=document.getElementById('num2')
+ const operation=document.getElementById('operation')
+ const output=document.getElementById('answer');
+ const btn = document.getElementById('btn');
+
+ 
+ //document.getElementById('num1')
+
+ btn.addEventListener('click',()=>{
+
+
+  if(operation.value === "+"){
+    output.textContent=Number(num1.value) + Number(num2.value)
+  }else if(operation.value ==="-"){
+    output.textContent=Number(num1.value) - Number(num2.value)
+  }else if(operation.value ==="*"){
+    output.textContent=Number(num1.value) * Number(num2.value)
+  }else if(operation.value ==="/"){
+    output.textContent=Number(num1.value) / Number(num2.value)
+  }
+ })
+*/
+
+/*const result=document.querySelector('#result')
+const btn=document.querySelector('#box')
+const close=document.querySelector('#close')
+ console.log(result)
+ console.log(btn)
+
+ btn.addEventListener('click', () =>{
+  result.style.display="block"
+  btn.style.display="none"
+
+ })
+ close.addEventListener('click', () =>{
+  btn.style.display="block"
+  result.style.display="none"
+
+ })*/
+
+
+ /*const user1={
+  name:"ram",
+  power:2500,
+  yuga:"treta"
+ }
+ const user2={
+  name:"krishna",
+  power:2325,
+  yuga:"deaper"
+ }
+ function result(val1 ,val2){
+ let output=val1.power>val2.power?"ram power is greater":"krishna power is greater";
+ return output;
+ }
+ console.log(result(user1,user2));*/
+
+
+/*const code=document.querySelector('#code');
+const check = document.querySelector('#check');
+
+check.addEventListener('click',()=>{
+  if(code.value.length>=10){
+    alert('invalid password')
+  }else{
+    alert('you can proceed')
+  }
+
+})*/
+ /*const num1=document.getElementById('num1')
+ const num2=document.getElementById('num2')
+ const operation=document.getElementById('operation')
+ const output=document.getElementById('answer');
+ const btn = document.getElementById('btn');
+
+ 
+ //document.getElementById('num1')
+
+ btn.addEventListener('click',()=>{
+  if(operation.value === "+"){
+    output.textContent=Number(num1.value) + Number(num2.value)
+  }else if(operation.value ==="-"){
+    output.textContent=Number(num1.value) - Number(num2.value)
+  }else if(operation.value ==="*"){
+    output.textContent=Number(num1.value) * Number(num2.value)
+  }else if(operation.value ==="/"){
+    output.textContent=Number(num1.value) / Number(num2.value)
+  }
+ })*/
+
+
+
+//const num=document.querySelecorAll('#num')
+//const num1=document.querySelecorAll('#num')
+
+//const signin = document.getElementById('signin')
+
+//const login = document.getElementById('login')
+
+
+
+
+/*
+signin.addEventListener('click',()=>{
+
+
+ localStorage.setItem("mailval", "passval");
+
+
+
+})
+
+const maildet=localStorage.getItem("mailval")
+const passdet = localStorage.getItem("passval")
+
+login.addEventListener('click',()=> {
+   
+   if(maildet === mailval){
+    alert('you are right')
+   }else{
+    alert('you are not a member')
+   }
+
+   localStorage.setItem("mailval", "passval");
+
+console.log("red")
+
+});
+
+
+
+
+
+*/
+
+for accessing mongo db database from node (vs code)
+
+var MongoClient = require('mongodb').MongoClient;
+var url = "mongodb://localhost:27017/";
+
+MongoClient.connect(url, function(err,db){
+    if(err) throw err;
+    var dbo=db.db("local");
+    var myobj = [{ename:"sujan", address:"delhi",dob:"1998-05-01",age:23,salary:25000}]
+    dbo.collection("employee").insertMany(myobj,function(err,res){
+        if (err)throw err;
+        console.log("employees table created successfully");
+        db.close();
+    })
+})
+
+
+  
+
+
+
+

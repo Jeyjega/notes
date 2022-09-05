@@ -1,0 +1,111 @@
+             
+                                                           -----* MONGO DB *-----
+
+
+colums are attribute
+
+tuple = rows or records 
+
+table is called entity
+
+MONGO DB SUPPORT JSON and BSON.
+
+with help of object id we can recognise with table.
+
+REQUIREMENTS = XAMPP,WAMPP,LAMPP
+                                      
+                                                            ----TASK----
+
+1)what is the except differents btw mongo db ,sql,post grade sequal?
+
+2)what is normalization.? and where are apply the normalization?
+
+3)what is foreighn key?.and  where we can apply foreigh key?  
+
+4)rules of mongo db inventer. ***/
+
+----------
+27-08-2011
+----------
+
+in mongo db data types having 2 extra DATA TYPES.
+
+       1)timeStamp
+       2)machine id
+       3)object id. =>primary key - inbuild.
+                    =>12bytes - hexa decimal charecters.
+
+BSON ->
+     means binary object notation.
+     -all the values are consideres by binary.its machine understanding   
+     -execution is fast compr than JSON ,cos its binary dats 
+
+
+    default user name of mysql= root and password is e=empty password
+    in mongodb = username = user , password = empty password.
+
+creating data base is ,axtually use "use" keyword in front of database name =like ;- use skillsafai 
+
+there are many dta types = int,char,float,double ..ets 
+ each have some memorys.  ....bytes=8bites      ,int=4 bytes , double=8bytes , long= 4bytes 
+
+ (X) insert =>inject our query
+     upsert  =>combination update and insert our quary
+
+when adding new columns we use set proprty
+
+
+we can add one column useing $set ,
+
+if we want to increment of some values,  we have to use  $inc 
+
+
+----------
+30-08-2011
+----------
+
+db.employee.aggregate([
+{$match:{$or:[{age:{$gt:25,$lt:60}}]}}
+{$group:{_id:null,$count:{$sum:1}}}
+]);
+
+      for edit the name => db.customer.update({first_name:"jega"},{$rename:{"age":"sno"}})
+                                                                    -------        ----
+
+
+     $lt =>lesser than
+     $gt =>greater than
+
+
+----------
+01-09-2022
+----------
+quaries
+--------
+
+1)project salary ,address,firstname of students. whos age not in 30?
+2)how can be use map method in mango dp.and apply
+3)how can be subtract two values ,between two dates.?
+4)study and apply the comparision apperator.
+5)square root method ,floor method,
+
+
+
+task
+
+1)12 different database via node js
+2)5 differents between JSON and BSON
+3)what is the purpose of package.json
+
+ad)how can be generate the sequense in mongodb column using node js?
+
+
+
+
+     
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+each time we have to start severside while using node js.
+
+first we have to create the server and establish that for installing the node js.
+
+200,  300,  400,  500,  303,  404,  302,  
+
+
+
+var declaration
+
+createServer();
+var.readfile()

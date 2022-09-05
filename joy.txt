@@ -1,0 +1,6 @@
+Javascript
+ -for removing the decimal point;
+*
+floor
+ceil
+trunc

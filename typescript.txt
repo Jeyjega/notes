@@ -1,0 +1,47 @@
+-TypeScript-
+ 
+ typescript is subset of javascript.
+ Typescript is statically developed .
+ we have to compile before running it on browser.
+   -browser cannot understand typescipt.so we have to compile before its running on browser.
+ javscript is interpreted language and Typescript is compiled language. 
+ 
+ we hava to declare a variable with type of the variable in typescript. 
+
+
+
+
+  Typescript is optionally static programming language,whereas js is dynamically programming language.
+
+  it is js+ addition features.
+
+  it is developer friently programming language.
+  
+  js is interpreted & typescript is compiler
+
+  browsr cant exucute ts file directly,its need to be compiled.while compiling epropriate 
+
+  there are two ways to assaign a value in typescript.
+   1)explicit
+   2)implicit
+
+         unknown 
+       let a:unknown=12;
+       a="hello"
+
+   other data types: undefined and null same as js datatyes undefined in null.
+
+   tuples -> same as like Array combination of 
+
+   tuple destructuring -> if you want to take only few detailes like i dont want all groceries:only what i want i take.
+
+ 
+  const names:string []=[];
+names.push("hii")
+console.log(names);
+   
+
+  
+
+  
+ 

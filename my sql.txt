@@ -1,0 +1,30 @@
+SQL  25/8/22
+
+
+
+for getting a amployee with particular detailes
+SELECT (salary),ename FROM employee ORDER BY salary DESC LIMIT 1
+
+
+if use GROUP By mean use HAVING class and dont use WHERE
+
+normally we can use WHERE
+
+SELECT GROUP_CONCAT(ename), address FROM 'employee' GROUP BY address HAVING address='erode'
+
+SELECT CONCAT (" ",ename," ",age," ",email) AS 'full address' from employee
+
+SELECT CONCAT (ename,"?",dob,">",mstatus,) AS 'SELECT' from employee
+
+SELECT GROUP_CONCAT (ename,address,age) FROM employee GROUP BY mstatus
+
+* JOIN *
+left joints - right joints
+
+
+in did = 1 - 5, 7-10,11 name= IT,CSC,eee,MECh,civil,ml,ai,robotics,textile,ece,
+
+in eid = 1-10  name=a,b,c,d,e,f,g,h,i,j
+
+
+SELECTe.name,
